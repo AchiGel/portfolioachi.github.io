@@ -397,6 +397,12 @@ h1 {
 }
 
 @media (max-width: 390px) {
+  .header__logo a img {
+    width: 100%;
+  }
+  .header__menu {
+    padding-left: 20px;
+  }
   .two {
     padding-bottom: 0;
   }
@@ -410,12 +416,6 @@ h1 {
 }
 
 @media (max-width: 320px) {
-  .header__logo a img {
-    width: 100%;
-  }
-  .header__menu {
-    padding-left: 20px;
-  }
   .one {
     padding-top: 115px;
     padding-bottom: 0;
